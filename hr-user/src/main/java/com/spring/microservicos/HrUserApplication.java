@@ -2,13 +2,12 @@ package com.spring.microservicos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableConfigServer
 @SpringBootApplication
-public class HrConfigServerApplication{
+public class HrUserApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(HrConfigServerApplication.class, args);
+		SpringApplication.run(HrUserApplication.class, args);
 	}
 
 }
